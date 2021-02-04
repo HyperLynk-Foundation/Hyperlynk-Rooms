@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="text">
+            <img class="headingsend" src="Screenshot 2021-02-04 at 08.58.15 copy.png" width="200"/>
+            <p>The private way to call your friends</p>
+            <input placeholder="Enter the Call ID" type="text" id="username_input">          
+            <button onclick="joinCall()" id="joinCall">Join Call</button>
+        </div>
+        <div id="video-call-div">
+            <video muted id="local-video" autoplay></video>
+            <video id="remote-video" autoplay></video>
+            <div class="call-action-div">
+                <button onclick="muteVideo()">Mute Video</button>
+                <button onclick="muteAudio()">Mute Audio</button>
+            </div>
+        </div>
+        <script src="./reciever.js"></script>
+    </body>
+</html>
