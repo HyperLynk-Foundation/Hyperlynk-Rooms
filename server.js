@@ -3,7 +3,7 @@ const http = require("http")
 
 const server = http.createServer((req, res) => {})
 
-server.listen(https://pensive-blackwell-5a6642.netlify.app, () => {
+server.listen(pensive-blackwell-5a6642.netlify.app, () => {
     console.log("Listening on port 3000...")
 })
 
