@@ -3,7 +3,7 @@ const http = require("http")
 
 const server = http.createServer((req, res) => {})
 
-server.listen(3000, () => {
+server.listen(https://hyperlynk-rooms-again.vercel.app, () => {
     console.log("Listening on port 3000...")
 })
 
