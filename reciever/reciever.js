@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://192.168.0.140:3000")
+const webSocket = new WebSocket("https://hyperlynk-rooms-again.vercel.app")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
